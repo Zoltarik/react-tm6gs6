@@ -1,3 +1,20 @@
 import React from 'react';
 
-export default ({ name }) => <h1>Hello {name}!</h1>;
+const Test1 = () => {
+  return(
+    <div>
+      <p>Mod</p>
+        <select>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+        <p>Nom</p>
+        <select>
+          
+        </select>
+    </div>
+  )
+}
+
+export default Test1;
