@@ -1,15 +1,26 @@
 import React from 'react';
 
 const Mod = () => {
-  var modeng = ["123", "455"]
+  var modeng = [
+    {
+    id: "1",
+    name: "123"
+     },
+    {
+      id: "2",
+      name: "456"
+    }
+    ]
     var modEngTemp = 
         modeng.map((modeng) =>
-        <option>{modeng}</option>
+        <option value={modeng.id}>{modeng.name}</option>
         );
   
   return(
     <div>
+    <select>
       {modEngTemp}
+      </select>
     </div>
   )
 }
