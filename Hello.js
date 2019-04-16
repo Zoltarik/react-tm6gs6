@@ -5,12 +5,12 @@ const Test1 = () => {
     <div>
       <table>
         <tr>
-        <td><p>data</p><input type="text" placeholder="data" /></td>
+        <td><p>data</p><input type="date" placeholder="data" /></td>
           <td>
             <p>Mod</p>
             <Mod />
           </td>
-          <td><p>Nom</p><input type="text" /></td>
+          <td><p>Nom</p><input type="number" /></td>
         </tr>
       </table>
     </div>
