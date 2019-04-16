@@ -1,18 +1,23 @@
 import React from 'react';
 import Mod from './Mod.js'
+import {Table} from 'reactstrap';
 const Test1 = () => {
   return(
     <div>
-      <table>
+      <Table>
+      <tr>
+      <th><p>data</p></th>
+      <th><p>model</p></th>
+      <th><p>number</p></th>
+      </tr>
         <tr>
-        <td><p>data</p><input type="date" placeholder="data" /></td>
+        <td><input type="date" placeholder="data" /></td>
           <td>
-            <p>Mod</p>
             <Mod />
           </td>
-          <td><p>Nom</p><input type="number" /></td>
+          <td><input type="number" /></td>
         </tr>
-      </table>
+      </Table>
     </div>
   )
 }
